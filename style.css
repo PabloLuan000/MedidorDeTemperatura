@@ -242,6 +242,8 @@ section p {
 @media (max-width: 600px) {
   .header {
     height: 70px;
+    border-bottom-left-radius: 5px;
+    border-bottom-right-radius: 5px;
   }
 
   .header h1 {
