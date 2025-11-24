@@ -3,118 +3,130 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Termômetro Infravermelho</title>
+    <title>Espectro Eletromagnético</title>
     <link rel="stylesheet" href="style.css" />
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-    <link href="https://fonts.googleapis.com/css2?family=Michroma&family=Montserrat:ital,wght@0,100..900;1,100..900&family=Roboto:ital,wght@0,100..900;1,100..900&family=Stack+Sans+Text:wght@200..700&family=Ubuntu:ital,wght@0,300;0,400;0,500;0,700;1,300;1,400;1,500;1,700&display=swap" rel="stylesheet">
-    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-    <link href="https://fonts.googleapis.com/css2?family=Michroma&family=Montserrat:ital,wght@0,100..900;1,100..900&family=Roboto:ital,wght@0,100..900;1,100..900&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Michroma&family=Montserrat:wght@300;400;600&display=swap" rel="stylesheet">
 </head>
+
 <body>
+
     <header class="header">
-        <h1>Termômetro Infravermelho</h1>
+        <h1>Espectro Eletromagnético</h1>
     </header>
 
+    <!-- O QUE É -->
     <section class="sectionOqueE">
-        <h1>O que é?</h1>
+        <h1>O que é o Espectro Eletromagnético?</h1>
 
         <p>
-            O termômetro infravermelho com Arduino Nano e mira laser é um dispositivo eletrônico capaz de medir a temperatura de objetos sem precisar encostar neles. 
-        </p>
-        </br>
-        <p>
-            Diferente dos termômetros comuns, que exigem contato direto com o corpo ou a superfície, este projeto utiliza um sensor infravermelho, que detecta o calor emitido por qualquer objeto.
-        </p>
-        </br>
-        <p>
-            Esse tipo de projeto é bastante utilizado em experimentos educacionais e em situações onde o contato direto com o objeto não é possível ou seguro, como motores, componentes aquecidos ou superfícies em movimento.
+            O Espectro Eletromagnético é o conjunto completo de todos os tipos de radiação eletromagnética. 
+            Essa radiação é formada por ondas invisíveis que transportam energia e se propagam no espaço sem 
+            precisar de um meio material, ou seja, conseguem viajar até mesmo no vácuo.
         </p>
 
-        <div class="imagensSection1">
-            <img src="Imagens/termometro-infravermelho-arduino-nano.jpg" />
-            <img src="Imagens/alimentacao-termometro-infravermelho.jpg"/>
-        </div>
+        <p>
+            Cada tipo de radiação tem uma frequência e um comprimento de onda diferentes, o que faz com que possua 
+            propriedades únicas. Elas vão desde ondas gigantescas, como as de rádio, até ondas extremamente pequenas, 
+            como os raios gama.
+        </p>
+
+        <p>
+            Mesmo que não percebamos, estamos cercados pelo espectro eletromagnético todos os dias — na luz que enxergamos,
+            no Wi-Fi que usamos, no micro-ondas da cozinha e até nos exames médicos.
+        </p>
+
     </section>
 
+    <!-- TIPOS DE ONDA -->
     <section class="sectionComponentes">
-        <h1>Componentes</h1>
+        <h1>Tipos de Ondas do Espectro</h1>
 
         <p>
-            Para construir o termômetro infravermelho, é necessário reunir alguns componentes eletrônicos simples, que podem ser encontrados com facilidade em lojas especializadas. Abaixo está a lista dos itens utilizados:
+            O espectro é dividido em diferentes faixas. Cada uma delas possui características e aplicações específicas:
         </p>
 
         <p>
-            1 x Arduino Nano V3;<br>
-
-            1 x Cabo Mini USB 1,2m para Arduino NANO;<br>
-
-            1 x Case em MDF para Termômetro Infravermelho Arduino TI100;<br>
-
-            1 x Display OLED 0.96″ I2C 128x64 Branco para Arduino;<br>
-
-            1 x Sensor de Temperatura Infravermelho IR MLX90615 Slim;<br>
-
-            1 x Laser Arduino Vermelho 12mm 5mW de Alta Potência;<br>
-
-            1 x Bateria 9V Alcalina Flex;<br>
-
-            1 x Conector Clip de Bateria 9V;<br>
-
-            1 x Interruptor Liga/Desliga tipo Gangorra 10A/120 6A/250V;<br>
-
-            10 x Mini Parafuso M1.6 x 8mm Metálico;<br>
-
-            10 x Mini Porca M1,6 x 1,5mm Metálica;<br>
-
-            1 Kit Jumper Premium para Protoboard Fêmea-Fêmea 20 cm.<br>
+            <strong>• Ondas de Rádio:</strong> usadas em rádios, TV, comunicação e Wi-Fi.<br><br>
+            <strong>• Micro-ondas:</strong> presentes nos fornos micro-ondas e em radares.<br><br>
+            <strong>• Infravermelho:</strong> responsável pelo calor, usado em controles remotos e sensores.<br><br>
+            <strong>• Luz Visível:</strong> pequena faixa que os nossos olhos conseguem enxergar.<br><br>
+            <strong>• Ultravioleta (UV):</strong> emitida pelo Sol, usada em lâmpadas esterilizadoras.<br><br>
+            <strong>• Raios X:</strong> atravessam tecidos e revelam ossos em exames médicos.<br><br>
+            <strong>• Raios Gama:</strong> radiação muito energética, usada para esterilização e estudos nucleares.
         </p>
     </section>
 
+    <!-- APLICAÇÕES -->
     <section class="sectionComoFunciona">
-        <h1>Como Funciona</h1>
+        <h1>Aplicações no Dia a Dia</h1>
 
         <p>
-            O funcionamento deste termômetro é baseado em um princípio simples: todo objeto emite calor, mesmo que não o vejamos.
+            O espectro eletromagnético está presente em praticamente tudo ao nosso redor. 
+            Sem perceber, usamos diferentes tipos de ondas a todo momento.
         </p>
-        <br>
-        <p>
-            Esse calor é liberado na forma de radiação infravermelha, um tipo de energia invisível ao olho humano, mas que pode ser detectada por sensores eletrônicos.
-        </p>
-        <br>
-        <p>
-            O sensor MLX90615, usado neste projeto, é capaz de captar essa radiação e transformá-la em informações elétricas.
-        </p>
-        <br>
-        <p>
-            Essas informações são então enviadas ao Arduino Nano, que as interpreta e converte em um valor de temperatura, geralmente exibido em graus Celsius.
-        </p>
-        <br>
-        <p>
-            O Arduino atua como o “cérebro” do sistema: ele lê os dados do sensor, realiza os cálculos necessários e envia o resultado para o display, onde a temperatura é mostrada de forma clara e imediata.
-        </p>
-        <br>
-        <p>
-            OBS: O projeto conta com uma mira laser para indicar de onde o sensor infravermelho está captando a temperatura.
-        </p>
-        <br>
-        <p>
-            Em resumo, o termômetro funciona da seguinte maneira:<br>
 
-            1. O sensor detecta a radiação infravermelha emitida pelo objeto.<br>
+        <p>
+            <strong>Comunicação:</strong> celulares, rádio, TV, internet e satélites usam ondas de rádio e micro-ondas.  
+        </p>
 
-            2. O Arduino processa os dados recebidos e calcula a temperatura.<br>
+        <p>
+            <strong>Saúde:</strong> exames como raio X e radioterapia dependem de radiação de alta energia.  
+        </p>
 
-            3. O resultado é exibido no display digital.<br>
+        <p>
+            <strong>Segurança:</strong> sensores infravermelhos e detectores de metais utilizam ondas específicas.  
+        </p>
+
+        <p>
+            <strong>Dia a dia:</strong> controles remotos, lâmpadas UV, micro-ondas, câmeras e até os nossos olhos dependem
+            de alguma faixa do espectro.
         </p>
     </section>
 
+    <!-- IMPORTÂNCIA -->
+    <section class="sectionComoFunciona">
+        <h1>Importância para a Tecnologia</h1>
+
+        <p>
+            A tecnologia moderna simplesmente não existiria sem o espectro eletromagnético. Ele permite:
+        </p>
+
+        <p>
+            • Comunicação global instantânea<br>
+            • Transferência de dados sem fio<br>
+            • Diagnósticos médicos avançados<br>
+            • Energia solar<br>
+            • Pesquisas espaciais<br>
+            • Sistemas de localização (GPS)
+        </p>
+
+        <p>
+            Cada faixa do espectro se tornou essencial para o avanço da ciência e para tornar nossas vidas mais práticas,
+            seguras e conectadas.
+        </p>
+    </section>
+
+    <!-- CURIOSIDADES -->
+    <section class="sectionComoFunciona">
+        <h1>Curiosidades</h1>
+
+        <p>
+            • A luz visível representa menos de 1% de todo o espectro.<br><br>
+            • As micro-ondas viajam à velocidade da luz, assim como todos os outros tipos de radiação.<br><br>
+            • Os raios gama são tão energéticos que podem atravessar metais pesados.<br><br>
+            • O controle remoto da TV funciona com infravermelho, não com rádio.<br><br>
+            • O Sol emite radiação em praticamente todas as faixas do espectro.
+        </p>
+    </section>
+
+    <!-- QUIZ -->
     <section id="quiz" class="py-5 bg-light">
         <div class="container text-center">
-            <h2 class="mb-4 text-primary fw-bold"> Quiz - Teste seus conhecimentos</h2>
+            <h2 class="mb-4 text-primary fw-bold">Quiz - Teste seus conhecimentos</h2>
             <p class="mb-5">
-                Responda as perguntas abaixo e descubra o quanto você aprendeu sobre o termômetro
-                infravermelho!
+                Responda as perguntas abaixo e descubra o quanto você aprendeu sobre o Espectro Eletromagnético!
             </p>
 
             <div id="quiz-container" class="card shadow p-4 mx-auto" style="max-width: 600px;">
@@ -129,9 +141,9 @@
                 </div>
             </div>
         </div>
-</section>
+    </section>
 
-<script src="js/quiz.js"></script>
+    <script src="js/quiz.js"></script>
 
 </body>
 </html>

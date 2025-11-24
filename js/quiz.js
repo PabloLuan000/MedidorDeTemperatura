@@ -1,53 +1,53 @@
 const quizData = [
   {
-    question: "O que o sensor infravermelho faz neste projeto?",
+    question: "O que é o espectro eletromagnético?",
     answers: [
-      "Mede a temperatura tocando o objeto",
-      "Capta o calor emitido sem contato",
-      "Controla o laser",
-      "Gera energia para o circuito"
+      "Uma lista de instrumentos musicais",
+      "O conjunto de todas as ondas eletromagnéticas",
+      "Um tipo de raio laser",
+      "Um tipo de luz invisível"
     ],
     correct: 1
   },
   {
-    question: "Qual é a função da mira laser?",
+    question: "Qual destas é uma onda eletromagnética?",
     answers: [
-      "Medir a temperatura",
-      "Mostrar onde o sensor está apontando",
-      "Aumentar a precisão do sensor",
-      "Enviar dados ao Arduino"
-    ],
-    correct: 1
-  },
-  {
-    question: "Qual componente é responsável por processar as informações do sensor?",
-    answers: [
-      "O display",
-      "O resistor",
-      "O Arduino Nano",
-      "A fonte de energia"
+      "Som",
+      "Água",
+      "Luz visível",
+      "Vento"
     ],
     correct: 2
   },
   {
-    question: "Por que esse tipo de termômetro é útil em ambientes industriais?",
+    question: "Qual tipo de onda é usada para ouvirmos rádio?",
     answers: [
-      "Porque é colorido",
-      "Porque mede temperatura à distância",
-      "Porque usa Wi-Fi",
-      "Porque é mais pesado"
+      "Raios X",
+      "Ondas de rádio",
+      "Luz visível",
+      "Ultravioleta"
     ],
     correct: 1
   },
   {
-    question: "O que o display faz no projeto?",
+    question: "Qual onda permite que controles remotos funcionem?",
     answers: [
-      "Mostra a temperatura medida",
-      "Controla o laser",
-      "Alimenta o sensor",
-      "Armazena dados"
+      "Infravermelho",
+      "Micro-ondas",
+      "Raios Gama",
+      "Luz visível"
     ],
     correct: 0
+  },
+  {
+    question: "Qual tipo de onda pode ser prejudicial em grandes quantidades?",
+    answers: [
+      "Ondas de rádio",
+      "Infravermelho",
+      "Ultravioleta",
+      "Micro-ondas"
+    ],
+    correct: 2
   }
 ];
 
@@ -98,7 +98,7 @@ function selectAnswer(index) {
     } else {
       showResult();
     }
-  }, 1000);
+  }, 900);
 }
 
 function showResult() {

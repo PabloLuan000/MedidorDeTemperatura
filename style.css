@@ -58,15 +58,6 @@ section p {
   text-align: justify;
 }
 
-.imagensSection1 {
-  display: flex;
-  justify-content: center;
-  align-items: center;
-  gap: 30px;
-  margin-top: 40px;
-  flex-wrap: wrap;
-}
-
 .imagensSection1 img {
   width: 400px;
   max-width: 100%;
